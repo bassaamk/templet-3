@@ -1,0 +1,470 @@
+/* start color */
+:root {
+  --main-color: #2196f3;
+  --main-color-alt: #1787e0;
+  --main-transition: 0.3s;
+}
+/* font color */
+.c-bule {
+  color: var(--main-color);
+}
+.c-bule-alt {
+  color: var(--main-color-alt);
+}
+.c-white {
+  color: white;
+}
+.c-black {
+  color: black;
+}
+.c-777 {
+  color: #777;
+}
+.c-b9{
+  color: #b9b9b9;
+}
+/* background color */
+.bg-bule {
+  background-color: var(--main-color);
+}
+.bg-bule-alt {
+  background-color: var(--main-color-alt);
+}
+.bg-white {
+  background-color: white;
+}
+.bg-eee {
+  background-color: #eee;
+}
+.bg-ec {
+  background-color: #ececec;
+}
+/* end color */
+/* ================================================ */
+/* start padding */
+/* main padding */
+.p-0 {
+  padding: 0;
+}
+.p-5 {
+  padding: 5px;
+}
+.p-10 {
+  padding: 10px;
+}
+.p-15 {
+  padding: 15px;
+}
+.p-20 {
+  padding: 20px;
+}
+.p-30 {
+  padding: 30px;
+}
+.p-100 {
+  padding: 100px;
+}
+/* padding top */
+.pt-0 {
+  padding-top: 0;
+}
+.pt-5 {
+  padding-top: 5px;
+}
+.pt-10 {
+  padding-top: 10px;
+}
+.pt-15 {
+  padding-top: 15px;
+}
+.pt-20 {
+  padding-top: 20px;
+}
+/* padding right */
+.pr-0 {
+  padding-right: 0;
+}
+.pr-5 {
+  padding-right: 5px;
+}
+.pr-10 {
+  padding-right: 10px;
+}
+.pr-15 {
+  padding-right: 15px;
+}
+.pr-20 {
+  padding-right: 20px;
+}
+/* padding bottom */
+.pb-0 {
+  padding-bottom: 0;
+}
+.pb-5 {
+  padding-bottom: 5px;
+}
+.pb-10 {
+  padding-bottom: 10px;
+}
+.pb-15 {
+  padding-bottom: 15px;
+}
+.pb-20 {
+  padding-bottom: 20px;
+}
+/* padding left */
+.pl-0 {
+  padding-left: 0;
+}
+.pl-5 {
+  padding-left: 5px;
+}
+.pl-10 {
+  padding-left: 10px;
+}
+.pl-15 {
+  padding-left: 15px;
+}
+.pl-20 {
+  padding-left: 20px;
+}
+/* end padding */
+/* ====================================== */
+/* start margin */
+/* main margin */
+.m-auto {
+  margin: auto;
+}
+.m-0 {
+  margin: 0;
+}
+.m-5 {
+  margin: 5px;
+}
+.m-10 {
+  margin: 10px;
+}
+.m-15 {
+  margin: 15px;
+}
+.m-20 {
+  margin: 20px;
+}
+/* margin top */
+.mt-0 {
+  margin-top: 0;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+/* margin right */
+.mr-0 {
+  margin-right: 0;
+}
+.mr-5 {
+  margin-right: 5px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.mr-15 {
+  margin-right: 15px;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+/* margin bottom */
+.mb-0 {
+  margin-bottom: 0;
+}
+.mb-5 {
+  margin-bottom: 5px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-15 {
+  margin-bottom: 15px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+/* margin left */
+.ml-0 {
+  margin-left: 0;
+}
+.ml-5 {
+  margin-left: 5px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+.ml-15 {
+  margin-left: 15px;
+}
+.ml-20 {
+  margin-left: 20px;
+}
+/* sp */
+@media (max-width: 767px) {
+  .m-10-mob {
+    margin: 10px;
+  }
+}
+.ml-auto {
+  margin-left: auto;
+}
+/* end margin  */
+/* ============================= */
+/* start fonts */
+/* font size */
+.fs-10 {
+  font-size: 10px;
+}
+.fs-12 {
+  font-size: 12px;
+}
+.fs-13 {
+  font-size: 13px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-15 {
+  font-size: 15px;
+}
+.fs-16 {
+  font-size: 16px;
+}
+.fs-17 {
+  font-size: 17px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.fs-19 {
+  font-size: 19px;
+}
+.fs-20 {
+  font-size: 20px;
+}
+.fs-25 {
+  font-size: 25px;
+}
+.fs-30 {
+  font-size: 30px;
+}
+.fs-40 {
+  font-size: 40px;
+}
+.fs-50 {
+  font-size: 50px;
+}
+.fs-60 {
+  font-size: 60px;
+}
+/* font weight */
+.fw-n {
+  font-weight: normal;
+}
+.fw-b {
+  font-weight: bold;
+}
+/* text */
+.lh {
+  line-height: 1.6;
+}
+.txt-c {
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .txt-c-mob {
+    text-align: center;
+  }
+}
+/* end fonts */
+/* ================================ */
+/* start display */
+/* flex */
+.ds-flex {
+  display: flex;
+}
+.ds-flex-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ds-flex-sb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex-1 {
+  flex: 1;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-sb {
+  justify-content: space-between;
+}
+.flex-dc {
+  flex-direction: column;
+}
+.flex-ai-c {
+  align-items: center;
+}
+.basis45 {
+  flex-basis: 45%;
+}
+@media (max-width: 767px) {
+  .flex-dc-mob {
+    flex-direction: column;
+  }
+}
+.gap-10 {
+  gap: 10px;
+}
+.gap-20 {
+  gap: 20px;
+}
+.gap-30 {
+  gap: 30px;
+}
+.gap-40 {
+  gap: 40px;
+}
+.gap-50 {
+  gap: 50px;
+}
+@media (max-width: 767px) {
+  .gap-10-mob {
+    gap: 10px;
+  }
+}
+.ds-grid {
+  display: grid;
+}
+.ds-block {
+  display: block;
+}
+@media (max-width: 767px) {
+  .ds-block-mob {
+    display: block;
+  }
+}
+@media (max-width: 767px) {
+  .hide-mob {
+    display: none;
+  }
+}
+/* end display */
+/* ============================= */
+/* start position */
+.p-rel {
+  position: relative;
+}
+.p-abs {
+  position: absolute;
+}
+
+/* end position */
+/* ============================= */
+/* start border */
+.border-ccc {
+  border: 1px solid #ccc;
+}
+.border-eee {
+  border: 1px solid #eee;
+}
+.border-t-eee {
+  border-top: 1px solid #eee;
+}
+.border-b-eee {
+  border-bottom: 1px solid #eee;
+}
+.border-white {
+  border: 2px solid white;
+}
+.border-n {
+  border: none;
+}
+/* border radius */
+.b-rad-6 {
+  border-radius: 6px;
+}
+.b-rad-10 {
+  border-radius: 10px;
+}
+.b-rad-20 {
+  border-radius: 20px;
+}
+.b-rad-hluf {
+  border-radius: 50%;
+}
+/* end border */
+/* ============================ */
+/* start width +  */
+/* width */
+.w-32 {
+  width: 32px;
+}
+.w-40 {
+  width: 40px;
+}
+.w-50 {
+  width: 50px;
+}
+.w-64 {
+  width: 64px;
+}
+.w-100 {
+  width: 100px;
+}
+.w-200 {
+  width: 200px;
+}
+.w-full {
+  width: 100%;
+}
+.w-fit {
+  width: fit-content;
+}
+/* height */
+.h-32 {
+  height: 32px;
+}
+.h-64 {
+  height: 64px;
+}
+.h-100 {
+  height: 100px;
+}
+.h-150 {
+  height: 150px;
+}
+.h-200 {
+  height: 200px;
+}
+.h-full {
+  height: 100%;
+}
+/* end width + height */
+/* ================ */
+/* start comp */
+.tr {
+  transition: var(--main-transition);
+}
+.of-hide{
+  overflow: hidden;
+}
+/* end comp */
